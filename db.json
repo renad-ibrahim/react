@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "lala",
+      "password": "123456",
+      "email": "laal@gmail.com",
+      "phone": "0123654789",
+      "gender": "female",
+      "role": "admin"
+    },
+    {
+      "id": "nini",
+      "password": "123456",
+      "email": "nini@nini.com",
+      "phone": "0123654789",
+      "gender": "female",
+      "role": "admin"
+    },
+    {
+      "id": "meme",
+      "password": "123456",
+      "email": "meme@gmail.com",
+      "phone": "1234566",
+      "gender": "male",
+      "role": "user"
+    },
+    {
+      "id": "renad",
+      "password": "123456",
+      "email": "renad@gmail.com",
+      "phone": "01100794575",
+      "gender": "female"
+    }
+  ],
+  "roleAccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveEdit": true,
+      "haveDelete": true,
+      "id": "20fd"
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveEdit": false,
+      "haveDelete": false,
+      "id": "150d"
+    }
+  ]
+}
